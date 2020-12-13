@@ -8,7 +8,7 @@ const MyProfile = ({form, children}) => {
         <main className="myprofile">
             <div className="titleArea">
                 <div className="titleImage">
-                    <img alt="titleImg" className="img" src= {global+"/image/profile_image.jpg"}>
+                    <img alt="titleImg" className="img" src= {global + "/image/profile_image.jpg"}>
                     {/* <img alt="titleImg" className="img" src="myprofile-page/image/profile_image.jpg"> */}
                     </img>
                 </div>
