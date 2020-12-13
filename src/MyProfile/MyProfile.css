@@ -5,8 +5,8 @@
   }
   
   .titleArea {
-    height: 485px;
-    width: 789px;
+    width: 90%;
+    height: 50%;
     border:solid 1px;
     position : absolute;
     left:50%;
