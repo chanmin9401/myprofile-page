@@ -5,8 +5,8 @@ import './App.css'
 
 class App extends Component{
   profileInfo = {
-    //global = "https://chanmin9401.github.io/myprofile-page",
-    global : "http://localhost:3000/myprofile-page",
+    global = "https://chanmin9401.github.io/myprofile-page",
+    // global : "http://localhost:3000/myprofile-page",
     myName : "Dev. BOB",
     myIntoduce : "Junior F/E Developer.",
     career : "SINCE. 18.01"
