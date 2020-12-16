@@ -1,30 +1,34 @@
-import React from 'react';
+import { render } from '@testing-library/react';
+import React, { Component } from 'react';
 import './MyProfile.css';
 
-const MyProfile = ({form, children}) => {
-    var global = "https://chanmin9401.github.io/myprofile-page";
-    //global = localhost:3000?
-    return (
-        <main className="myprofile">
-            <div className="titleArea">
-                <div className="titleImage">
-                    <img alt="titleImg" className="img" src= {global + "/image/profile_image.jpg"}>
-                    {/* <img alt="titleImg" className="img" src="myprofile-page/image/profile_image.jpg"> */}
-                    </img>
-                </div>
-                <div className="titleWords">
-                    <div className="txt">
-                        Dev. BOB
+class MyProfile extends Component{
+    render(){
+        const { data } = this.props;
+        return (
+            <div className="myProfileTitle">
+                <div className="titleArea">
+                    <div className="titleImage">
+                        <img alt="titleImg" className="img" src= {data.global + "/image/profile_image.jpg"}>
+                        </img>
                     </div>
-                </div>
-                <div className="titleInfo">
-                    <div className="txt">
-                      Update Info  
+                    <div className="titleWords">
+                        <div className="txtArea">
+                            <div className="nameTxt">
+                                {data.myName}
+                            </div>
+                            <div className="introTxt">
+                                {data.myIntoduce}
+                            </div>
+                            <div className="careerTxt">
+                                {data.career}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </main>
-    );
+        );
+    }
 }
 
 export default MyProfile;
