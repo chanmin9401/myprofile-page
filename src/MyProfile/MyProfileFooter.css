@@ -1,0 +1,8 @@
+.myProfileFooter {
+    width: 100%;
+    float: inherit;
+    bottom : 0;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 13px;
+  }
