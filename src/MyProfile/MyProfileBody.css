@@ -1,0 +1,42 @@
+.myProfileBody {
+    margin-top : 20px;
+    height: calc(100% - 490px);
+  }
+
+.list {
+    height: auto;
+    width : 94%;
+    max-width: 900px;
+    position : relative;
+    left:50%;
+    transform: translate(-50%);
+  }
+.liHead {
+    height : 40px;
+    line-height: 40px;
+    font-size : 25px;
+    font-weight : bolder;
+    margin-bottom : 10px;
+    text-align: center;
+  }
+.liBody {
+    margin-bottom : 10px;
+  }
+.liItem {
+  width:100%;
+}
+.doubleItems {
+  text-align: center;
+}
+.doubleItems .liItemIcon {
+    height : 100px;
+    width: 100px;
+    display: inline-block;
+    margin: auto;
+}
+.liItemIcon {
+    height : 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+  }
