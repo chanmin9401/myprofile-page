@@ -13,3 +13,9 @@
 2. Resize Image and Title Text Area
 3. Add Footer
    - To make footer fixed, Add height property to html, body, root(id), etc.
+
+### 2020.12.23
+1. Modify css files to relocate contents
+2. Add MyProfileBody
+   - init MyProfileBody list
+   - add icons to introduce my skill set
