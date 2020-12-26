@@ -7,53 +7,56 @@ class MyProfileBody extends Component{
         return (
             <div className="myProfileBody">
                 <div className="list">
+                    <div className="liHead">
+                        SKILLS
+                    </div>
+                    <div className="liSubHead">
+                        MAIN
+                    </div>
                     <div className="liBody">
                         <div className="liItem">
-                            <div className="doubleItems">
+                            <div className="multiItems">
                                 <img className="liItemIcon" alt="html5_logo"
                                 src="https://www.flaticon.com/svg/static/icons/svg/919/919827.svg"/>
                                 <img className="liItemIcon" alt="css3_logo"
                                 src="https://www.flaticon.com/svg/static/icons/svg/919/919826.svg"/>
                             </div>                            
-                            <div>
-                                설명
-                            </div>
                         </div>
                     </div>
                     <div className="liBody">
-                        <div className="liItem">
+                        <div className="multiItems">
                             <img className="liItemIcon" alt="javascript_logo"
                             src="https://www.flaticon.com/svg/static/icons/svg/919/919828.svg"/>
-                            <div>
-                                설명
-                            </div>
-                        </div>
-                    </div>
-                    <div className="liBody">
-                        <div className="liItem">
                             <img className="liItemIcon" alt="nodeJs_logo"
-                            src="https://www.flaticon.com/svg/static/icons/svg/919/919825.svg"/>
-                            <div>
-                                설명
-                            </div>
+                            src="https://www.flaticon.com/svg/static/icons/svg/919/919825.svg"/>                     
                         </div>
                     </div>
                     <div className="liBody">
-                        <div className="liItem">
+                        <div className="multiItems">
                             <img className="liItemIcon" alt="java_logo"
                             src="https://www.flaticon.com/svg/static/icons/svg/919/919854.svg"/>
-                            <div>
-                                설명
-                            </div>
+                            <img className="liItemIcon" alt="oracle_logo"
+                            src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/oracle-512.png"/>
+                            <img className="liItemIcon" alt="nodeJs_logo"
+                            src="https://www.javaprofessionals.net/images/icon-mybatis.png"/>
                         </div>
+                    </div>
+                </div>
+                <div className="list">
+                    <div className="liSubHead">
+                        <img className="liIcon" src="https://www.flaticon.com/svg/static/icons/svg/32/32563.svg"></img>
+                    </div>
+                    <div className="liSubHead">
+                        SUB
                     </div>
                     <div className="liBody">
                         <div className="liItem">
-                            <img className="liItemIcon" alt="oracle_logo"
-                            src="https://logos-world.net/wp-content/uploads/2020/09/Oracle-Logo-700x394.png"/>
-                            <div>
-                                설명
-                            </div>
+                            <div className="multiItems">
+                                <img className="liItemIcon" alt="html5_logo"
+                                src="https://www.flaticon.com/svg/static/icons/svg/919/919827.svg"/>
+                                <img className="liItemIcon" alt="css3_logo"
+                                src="https://www.flaticon.com/svg/static/icons/svg/919/919826.svg"/>
+                            </div>                            
                         </div>
                     </div>
                 </div>
