@@ -9,7 +9,7 @@ class MyProfile extends Component{
             <div className="myProfileTitle">
                 <div className="titleArea">
                     <div className="titleImage">
-                        <img alt="titleImg" className="img" src= {data.global + "/image/profile_image.jpg"}>
+                        <img alt="titleImg" className="img" src= {"https://media.fastcampus.co.kr/wp-content/uploads/2019/10/%EC%8A%AC%EB%9D%BC%EC%9D%B4%EB%93%9C2.png"}>
                         </img>
                     </div>
                     <div className="titleWords">
