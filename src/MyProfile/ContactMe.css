@@ -1,0 +1,51 @@
+.contactMeBody {
+    margin-top : 40px;
+    height: 100%;
+  }
+.contactMeHead {
+    height : 70px;
+    line-height: 50px;
+    font-size : 30px;
+    font-weight : bolder;
+    margin-bottom : 5px;
+    text-align: center;
+    border-bottom : 3px solid #ffc320;
+    width : 94%;
+    max-width: 900px;
+    position : relative;
+    left:50%;
+    transform: translate(-50%);
+  }
+  .profileImg {
+    height: 200px;
+    width: 200px;
+    border-radius: 70%;
+    position : relative;
+    left:50%;
+    transform: translate(-50%);
+    margin-top : 15px;
+  }
+  .contactMeInfo {
+    font-size : 17px;
+    font-weight : bolder;
+    margin-bottom : 5px;
+    text-align: center;
+    width : 94%;
+    max-width: 900px;
+    position : relative;
+    left:50%;
+    transform: translate(-50%);
+  }
+  .liItem {
+    width:100%;
+    margin-top : 30px;
+  }
+  .multiItems {
+    text-align: center;
+  }
+  .multiItems .liItemIcon {
+      height : 35px;
+      width: 35px;
+      display: inline-block;
+      margin-left: 20px;
+  }
