@@ -43,7 +43,7 @@
 .multiItems {
   text-align: center;
 }
-.multiItems .liItemIcon {
+.liBody .liItem .multiItems .liItemIcon {
     height : 100px;
     width: 100px;
     display: inline-block;

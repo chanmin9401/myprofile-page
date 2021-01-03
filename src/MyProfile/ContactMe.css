@@ -43,7 +43,7 @@
   .multiItems {
     text-align: center;
   }
-  .multiItems .liItemIcon {
+  .contactMeBody .multiItems .liItemIcon {
       height : 35px;
       width: 35px;
       display: inline-block;
