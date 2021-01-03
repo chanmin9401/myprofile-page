@@ -1,6 +1,6 @@
 .myProfileBody {
     margin-top : 20px;
-    height: calc(100% - 490px);
+    height: 100%;
   }
 
 .list {
@@ -11,10 +11,10 @@
     left:50%;
     transform: translate(-50%);
   }
-.liHead {
-    height : 50px;
-    line-height: 40px;
-    font-size : 35px;
+.skillLiHead {
+    height : 70px;
+    line-height: 50px;
+    font-size : 30px;
     font-weight : bolder;
     margin-bottom : 5px;
     text-align: center;
@@ -23,14 +23,14 @@
   .liSubHead {
     height : 50px;
     line-height: 40px;
-    font-size : 30px;
+    font-size : 25px;
     font-weight : bolder;
     margin-bottom : 10px;
     text-align: center;
   }
   .liSubHead .liIcon {
-    height : 40px;
-    width: 40px;
+    height : 35px;
+    width: 35px;
     display: block;
     margin: auto;
   }
@@ -47,11 +47,45 @@
     height : 100px;
     width: 100px;
     display: inline-block;
-    margin: auto;
+    margin-left: 5px;
 }
 .liItemIcon {
     height : 100px;
     width: 100px;
     display: block;
     margin: auto;
+  }
+  .careerLiHead {
+    height : 70px;
+    line-height: 50px;
+    font-size : 30px;
+    font-weight : bolder;
+    margin-top : 50px;
+    margin-bottom : 45px;
+    text-align: center;
+    border-bottom : 3px solid red;
+  }
+  .careerLiCont {
+    text-align: center;
+    width : 400px;
+    margin : auto;
+  }
+  .careerLiCont .head {
+    font-size : 20px;
+    font-weight: bolder;
+    margin-bottom : 20px;
+  }
+  .careerLiCont .body {
+    font-size : 20px;
+    font-weight: bolder;
+    margin-bottom : 10px;
+    margin-top : 15px;
+    text-align : left;
+  }
+  .careerLiCont .bodyDetail {
+    font-size : 15px;
+    font-weight: bold;
+    margin-bottom : 5px;
+    margin-left : 15px;
+    text-align : left;
   }
