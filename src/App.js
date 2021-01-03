@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MyProfile from './MyProfile/MyProfile';
 import MyProfileBody from './MyProfile/MyProfileBody';
+import ContactMe from './MyProfile/ContactMe';
 import MyProfileFooter from './MyProfile/MyProfileFooter';
 import './App.css'
 
@@ -18,6 +19,7 @@ class App extends Component{
         <div className ="contents">
           <MyProfile data={this.profileInfo}></MyProfile>
           <MyProfileBody></MyProfileBody>
+          <ContactMe></ContactMe>
           <MyProfileFooter></MyProfileFooter>
         </div>
       );
