@@ -44,14 +44,14 @@
   text-align: center;
 }
 .liBody .liItem .multiItems .liItemIcon {
-    height : 100px;
-    width: 100px;
+    height : 80px;
+    width: 80px;
     display: inline-block;
     margin-left: 5px;
 }
 .liItemIcon {
-    height : 100px;
-    width: 100px;
+    height : 80px;
+    width: 80px;
     display: block;
     margin: auto;
   }

@@ -24,21 +24,25 @@ class MyProfileBody extends Component{
                         </div>
                     </div>
                     <div className="liBody">
-                        <div className="multiItems">
-                            <img className="liItemIcon" alt="javascript_logo"
-                            src="https://www.flaticon.com/svg/static/icons/svg/919/919828.svg"/>
-                            <img className="liItemIcon" alt="nodeJs_logo"
-                            src="https://www.flaticon.com/svg/static/icons/svg/919/919825.svg"/>                     
+                        <div className="liItem">
+                            <div className="multiItems">
+                                <img className="liItemIcon" alt="javascript_logo"
+                                src="https://www.flaticon.com/svg/static/icons/svg/919/919828.svg"/>
+                                <img className="liItemIcon" alt="nodeJs_logo"
+                                src="https://www.flaticon.com/svg/static/icons/svg/919/919825.svg"/>                     
+                            </div>
                         </div>
                     </div>
                     <div className="liBody">
-                        <div className="multiItems">
-                            <img className="liItemIcon" alt="java_logo"
-                            src="https://www.flaticon.com/svg/static/icons/svg/919/919854.svg"/>
-                            <img className="liItemIcon" alt="oracle_logo"
-                            src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/oracle-512.png"/>
-                            <img className="liItemIcon" alt="nodeJs_logo"
-                            src="https://www.javaprofessionals.net/images/icon-mybatis.png"/>
+                        <div className="liItem">
+                            <div className="multiItems">
+                                <img className="liItemIcon" alt="java_logo"
+                                src="https://www.flaticon.com/svg/static/icons/svg/919/919854.svg"/>
+                                <img className="liItemIcon" alt="oracle_logo"
+                                src="https://cdn4.iconfinder.com/data/icons/flat-brand-logo-2/512/oracle-512.png"/>
+                                <img className="liItemIcon" alt="nodeJs_logo"
+                                src="https://www.javaprofessionals.net/images/icon-mybatis.png"/>
+                            </div>
                         </div>
                     </div>
                 </div>
