@@ -19,3 +19,9 @@
 2. Add MyProfileBody
    - init MyProfileBody list
    - add icons to introduce my skill set
+
+### 2021.01.03
+1. Fill out careers
+2. Add ContactMe
+   - resize profile img
+   - add link to my contacts
