@@ -57,7 +57,7 @@ class MyProfileBody extends Component{
                         <div className="liItem">
                             <div className="multiItems">
                                 <img className="liItemIcon" alt="kotlin_logo"
-                                src="https://ddo0fzhfvians.cloudfront.net/uploads/icons/png/18852341021548218200-512.png"/>
+                                src="https://cdn.worldvectorlogo.com/logos/kotlin-1.svg"/>
                                 <img className="liItemIcon" alt="react_logo"
                                 src="https://www.flaticon.com/svg/static/icons/svg/1126/1126012.svg"/>
                             </div>                            
